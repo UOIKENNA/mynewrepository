@@ -1,0 +1,19 @@
+h2{
+  color: blue;
+}
+#experience{
+  float: left;
+  width: 70%;
+  padding: 10px;
+  box-sizing: border-box;
+
+}
+#Exp{
+  float: right;
+  width:30%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+body{
+  background-color: #ADD8E6 ;
+}
