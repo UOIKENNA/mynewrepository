@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+h2{
+  color: blue;
+}
+#experience{
+  float: left;
+  width: 70%;
+  padding: 10px;
+  box-sizing: border-box;
+
+}
+#Exp{
+  float: right;
+  width:30%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+body {
+	font-family:"Open Sans", Helvetica, Arial, sans-serif;
+	font-weight:300;
+	font-size: 12px;
+	line-height:20px;
+	color:black;
+  background: #ADD8E6;
+}
+
+.container {
+	max-width:400px;
+	width:100%;
+	margin:0 auto;
+	position:relative;
+  padding: 25px;
+  border-radius:5px;
+}
+.container h3{
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+.container .input_field{
+  margin-bottom: 10px;
+}
+.container .input_field input[type="text"],
+.container textarea{
+  width: 100px;
+  border: 1px solid #e0e0e0;
+  padding: 10px;
+}
+.container textarea{
+  height: 50px;
+  resize: none;
+}
+.container .btn input[type="submit"]{
+  border:0;
+  margin-top: 15px;
+  padding: 10px;
+  width: 50%;
+}
+.container #Error_message{
+  margin-bottom: 20px;
+  padding: 0px;
+  background: #fe8b8e;
+  text-align: center;
+  font-size: 14px;
+  transition: all 0.5s ease;
+}
