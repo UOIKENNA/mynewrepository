@@ -5,8 +5,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=2.0">
   <meta http-http-equiv="X-UA-Compatible" content="ie=edge">
-  <<title>Ugwuegbulam Ikenna_Task 2</title>
+  <<title>Ugwuegbulam Ikenna_Task</title>
   <link rel="stylesheet" type="text/css" href="myStyles.css">
+  <script src="script.js"></script>
 </head>
 
 <body>
@@ -88,6 +89,29 @@
   <h2> LANGUAGES </h2>
   <p> English - Fluent </p>
   <p> French - Basic Understanding </p>
+  </div>
+  <!-- Contact Form-->
+  <div class="container">
+    <h3> Contact Me Here </h3>
+    <div id="Error_message"></div>
+
+    <form id="Contact" onsubmit="return validation()">
+        <div class="input_field">
+          <input placeholder="Name" type="text" id="name">
+        </div>
+        <div class="input_field">
+          <input placeholder="Email" type="text" id="email" >
+        </div>
+        <div class="input_field">
+          <input placeholder="Title" type="text" id="title" >
+        </div>
+        <div class="input_field">
+          <textarea placeholder="Message" id="message"></textarea>
+        </div>
+        <div class="btn">
+          <input type="submit">
+        </div>
+    </form>
   </div>
 </body>
 </html>
